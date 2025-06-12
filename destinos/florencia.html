@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description"
-      content="Descubre Florencia con Viajes Pérez. Información sobre los mejores lugares para visitar, actividades y consejos para tu viaje.">
+    <meta
+      name="description"
+      content="Descubre Florencia con Viajes Pérez. Información sobre los mejores lugares para visitar, actividades y consejos para tu viaje."
+    />
     <title>Descubre Florencia con Viajes Pérez</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="../css/estilos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -72,7 +75,7 @@
       </div>
     </nav>
 
-    <main>
+    <main id="main">
       <div class="grid">
         <section>
           <h2>TRAVEL JOY te lleva a Florencia</h2>
@@ -89,8 +92,6 @@
             <img src="../images/florencia-ponte-vecchio.jpg" alt="lorem" />
 
             <!-- Ejemplos de ruta absoluta en imagen -->
-
-            <!-- ¿por qué falla esta imagen? -->
             <img
               src="https://imagenes.20minutos.es/files/image_990_556/files/fp/uploads/imagenes/2024/07/11/catedral-florencia.r_d.848-423-4668.jpeg"
               height="233"
@@ -103,8 +104,30 @@
               alt="Personas paseando en calle antigua de Florencia"
             />
 
-            <figcaption>
+            <figcaption class="mosaico-caption">
               Fantásticos lugares que descubrirás en tu viaje a Florencia.
+            </figcaption>
+          </figure>
+
+          <h3>Haz un viaje por Florencia con este video de YouTube</h3>
+          <figure class="video-florencia">
+            <iframe           
+              src="https://www.youtube.com/embed/0zbGtfLzYLA?si=QzNQ-JPkUhzY_nTb"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <figcaption class="video-caption">
+              <a
+                style="text-decoration: none; color: aquamarine"
+                href="https://youtu.be/0zbGtfLzYLA?si=2j_adjx7oqoIP0Qg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                20 Cosas Que Ver y Hacer en Florencia, Italia Guía Turística</a
+              >
             </figcaption>
           </figure>
         </section>
@@ -167,13 +190,25 @@
             mejores ofertas.
           </p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-            culpa veniam cupiditate vitae consectetur consequuntur ipsum quidem.
-            Rem placeat dicta distinctio reprehenderit quidem accusamus itaque
-            iure sequi incidunt animi, amet aut impedit nemo labore earum cum
-            nam maiores a q ctus?
-          </p>
+          <aside>
+            <h4>Te interesa también viajar a Bali</h4>
+            <p>
+              Bali es una isla paradisíaca que destaca por su rica historia,
+              arte y arquitectura renacentista, haz click en la foto para
+              conocer más.
+            </p>
+
+            <a href="bali.html#main" style="text-decoration: none">
+              <figure>
+                <img
+                  src="../images/btn_bali.jpg"
+                  alt="Enlace para conocer el viaje a Bali"
+                  width="200"
+                />
+                <figcaption>Descubre Bali</figcaption>
+              </figure>
+            </a>
+          </aside>
         </section>
       </div>
     </main>
