@@ -218,3 +218,13 @@ footer p {
   text-align: center;
   font-size: 1.0em !important;
 }
+
+.video-caption a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.video-caption a:hover {
+  color: #a2b8e6;
+  text-decoration: underline;
+}
